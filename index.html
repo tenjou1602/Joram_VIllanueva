@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Joram Villanueva — Full-stack developer building PHP backends and Flutter apps.">
   <title>Joram Villanueva | Full-Stack Developer</title>
+  <link rel="icon" href="images/profile.jpg" type="image/jpeg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -29,15 +30,22 @@
 
   <main>
     <section class="hero">
-      <div class="container hero-inner">
-        <p class="eyebrow">Full-Stack Developer</p>
-        <h1>I build web and mobile apps that fix real workflows.</h1>
-        <p class="hero-sub">
-          Full-stack developer building PHP backends and Flutter apps. I take features from database to UI — auth, business logic, and the screens people actually use. Currently completing OJT and open to junior developer or internship roles.
-        </p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#projects">View projects</a>
-          <a class="btn btn-secondary" href="#contact">Get in touch</a>
+      <div class="container hero-layout">
+        <div class="hero-content">
+          <p class="eyebrow">Full-Stack Developer</p>
+          <h1>I build web and mobile apps that fix real workflows.</h1>
+          <p class="hero-sub">
+            Full-stack developer building PHP backends and Flutter apps.
+            I take features from database to UI — auth, business logic, and the screens people actually use.
+            Currently looking for OJT and open to junior developer or internship roles.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View projects</a>
+            <a class="btn btn-secondary" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-photo-wrap">
+          <img class="hero-photo" src="images/profile.jpg" alt="Joram Villanueva" width="320" height="320">
         </div>
       </div>
     </section>
@@ -45,10 +53,13 @@
     <section id="about" class="section">
       <div class="container">
         <h2 class="section-title">About Me</h2>
-        <div class="about-content">
-          <p>I'm <strong>Joram Villanueva</strong>, a full-stack developer who works across PHP/MySQL backends and Flutter mobile apps. Most of my work starts with a vague requirement — "students need a way to track concerns" or "we need a shop with admin controls" — and ends with a deployed system people can actually use.</p>
-          <p>I'm strongest when I own a feature end to end: database design, auth, business logic, and the interface. Recent work includes a concern-tracking platform with SLA escalation and role-based dashboards, and a Firebase-backed e-commerce app with cart, orders, and in-app support chat.</p>
-          <p>I'm currently building my portfolio through OJT and looking for a junior developer or internship role where I can ship features, learn from a team, and keep leveling up on backend and mobile work.</p>
+        <div class="about-layout">
+          <img class="about-photo" src="images/profile.jpg" alt="Joram Villanueva" width="280" height="280">
+          <div class="about-content">
+            <p>I'm <strong>Joram Villanueva</strong>, a full-stack developer who works across PHP/MySQL backends and Flutter mobile apps. Most of my work starts with a vague requirement — "students need a way to track concerns" or "we need a shop with admin controls" — and ends with a deployed system people can actually use.</p>
+            <p>I'm strongest when I own a feature end to end: database design, auth, business logic, and the interface. Recent work includes a concern-tracking platform with SLA escalation and role-based dashboards, and a Firebase-backed e-commerce app with cart, orders, and in-app support chat.</p>
+            <p>I'm currently building my portfolio through OJT and looking for a junior developer or internship role where I can ship features, learn from a team, and keep leveling up on backend and mobile work.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -59,6 +70,7 @@
         <div class="projects-grid">
 
           <article class="project-card">
+            <img class="project-image" src="images/project-concerntrack.svg" alt="Student Concern Tracking System dashboard preview">
             <div class="project-header">
               <h3>Student Concern Tracking System</h3>
               <span class="project-tag">Web App</span>
@@ -77,6 +89,7 @@
           </article>
 
           <article class="project-card">
+            <img class="project-image" src="images/project-ecommerce.png" alt="E-Commerce Mobile App product screen">
             <div class="project-header">
               <h3>E-Commerce Mobile App</h3>
               <span class="project-tag">Flutter</span>
@@ -95,6 +108,7 @@
           </article>
 
           <article class="project-card">
+            <img class="project-image" src="images/project-motortrade.svg" alt="MotorTrade Inventory Dashboard preview">
             <div class="project-header">
               <h3>MotorTrade Inventory Dashboard</h3>
               <span class="project-tag">Web App</span>
